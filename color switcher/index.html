@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>color switcher</title>
+    <link rel="stylesheet" href="second.css">
+</head>
+<body>
+   <div id="color-switch">
+   <span class="btn" id="white" onclick="changeBG('#ffffff')"></span>
+   <span class="btn" id="red" onclick="changeBG('#FF0000')"></span>
+   <span class="btn" id="blue" onclick="changeBG('#0000FF')"></span>                                             
+   <span class="btn" id="black" onclick="changeBG('#000000')"></span>
+   </div>
+    <h1 class="text">ABOUT US</h1>
+     <img src="C:\Users\Zayed\Downloads\nothing.png">
+    <p class="text">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi culpa iusto sunt, nihil perspiciatis deserunt illum quod eaque in cupiditate ducimus aliquam voluptate. Mollitia soluta necessitatibus deserunt maiores, totam aliquam aperiam officiis accusamus, rem alias illum assumenda cumque aut, natus saepe molestiae reprehenderit eius illo sunt tempora harum officia veritatis. Ex, fuga accusantium sint necessitatibus numquam dolores veniam soluta voluptatum. Delectus quia voluptate accusantium repellat temporibus, recusandae exercitationem sapiente necessitatibus pariatur facere perspiciatis impedit quasi ipsum harum praesentium hic eveniet magni cupiditate et incidunt consequatur nam sint rem sequi. Nostrum ratione at nulla fuga nobis expedita excepturi voluptate! Doloremque quis facilis provident recusandae, maiores, ipsa fugiat unde tenetur eligendi cum neque totam saepe rerum, aspernatur praesentium nulla? Modi voluptatem labore, quibusdam possimus dignissimos impedit dolore mollitia voluptate harum et quos cum facilis sunt, at nisi ipsum id veritatis, ea corporis in voluptates ut consequatur doloribus. Numquam placeat molestiae qui, quas molestias a nisi porro suscipit atque laborum impedit veritatis fuga aliquam sit nemo debitis ipsam dolore deserunt quaerat autem repellendus laudantium aut ea. Deleniti debitis accusantium obcaecati? Quam, sit tenetur a sequi, cum et perferendis quo nihil quasi, error pariatur quisquam ullam doloremque quibusdam culpa atque in consequuntur! Corporis saepe tenetur fugit quo est. Quidem quod porro labore officiis blanditiis modi fugiat eum. Ea, fugit illo odit adipisci harum ut ratione amet omnis similique quidem sequi molestiae facere perferendis tempora, veniam eveniet quo qui sapiente, enim consectetur autem quia maxime. Deleniti maxime impedit saepe libero ut sapiente neque doloribus nostrum laborum, perferendis quaerat recusandae id enim repellendus voluptatibus eveniet sed, voluptatem, eos quas? Dicta beatae rerum voluptatem ex tenetur itaque repellendus, hic ab quam veniam accusamus suscipit fugiat ipsam voluptatum optio numquam recusandae officiis exercitationem architecto explicabo! At assumenda quis, quasi ipsa, natus optio rerum ipsum nisi animi labore dolore velit modi expedita reprehenderit laborum quisquam? Beatae cumque numquam in voluptatibus reiciendis facilis reprehenderit vero culpa fugit! Quasi deserunt explicabo tenetur eveniet aut ut ex culpa ipsum odio est officia necessitatibus doloribus itaque quam soluta a adipisci, eos ad sequi rerum sint, omnis sed accusantium? Veniam magnam eum asperiores nostrum tempore a nobis possimus aut eius quam rerum eveniet debitis, delectus labore quae quaerat? Quidem alias fugiat veniam itaque nisi, amet adipisci iusto quam. Ipsam culpa incidunt delectus aut, impedit laboriosam voluptatum est quibusdam sapiente deleniti quas sequi ea autem blanditiis dolore et dolores accusamus nostrum doloremque alias? Assumenda expedita officia dicta asperiores omnis facere aspernatur, eligendi suscipit deleniti? Quas tempore ut a unde veritatis, sapiente eligendi tenetur temporibus maiores consequuntur. Tempore modi voluptatibus eligendi magni. Sed doloremque veritatis voluptatibus officiis eos. Non dolor quisquam cum autem delectus hic. Illo ipsa in tempore est quasi minima? Tenetur aperiam id recusandae fuga quasi? Ducimus ipsam repellendus sequi eum mollitia sunt veritatis? Fuga deleniti at mollitia earum, maiores neque delectus placeat beatae adipisci, doloremque aut reprehenderit totam cum. Nemo sequi mollitia facilis, rem dolores perspiciatis omnis cupiditate officiis? Modi asperiores numquam amet blanditiis at, mollitia facere ratione labore dolores magni pariatur perspiciatis!
+    </p>
+ <script>
+     function changeBG(color){
+         document.body.style.backgroundColor=color;
+         let txt=document.getElementsByClassName("text");
+         if(color=="#000000"){
+          for(let elm of txt){
+             elm.style.color="white";
+          }
+          }else{
+            for(let elm of txt){
+              elm.style.color="black";
+
+          }
+        }
+     }
+ </script>    
+       
+</body>
+</html>
